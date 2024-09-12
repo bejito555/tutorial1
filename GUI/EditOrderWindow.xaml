@@ -1,0 +1,35 @@
+﻿<Window x:Class="CustomerManagementApp.EditOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chỉnh Sửa Đơn Hàng" Height="300" Width="400" Background="DarkGray">
+    <Grid Margin="0,0,0,-1">
+        <Grid.Background>
+            <ImageBrush ImageSource="/pngtree-night-sky-romantic-sky-picture-image_2235299.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="16*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Nhập ID Đơn Hàng -->
+        <TextBlock Text="ID Đơn Hàng:" Grid.Row="0" VerticalAlignment="Center" Foreground="#FF0261F9" Grid.ColumnSpan="2"/>
+        <TextBox Name="txtOrderId" Grid.Row="0" Margin="60,0,0,10" IsReadOnly="True" Background="#FF0E0911" Foreground="#FFFBFBFB" Grid.Column="1"/>
+
+        <!-- Nhập Mã Sản Phẩm -->
+        <TextBlock Text="Mã Sản Phẩm Mới:" Grid.Row="1" VerticalAlignment="Center" Foreground="#FF0261F9" Grid.ColumnSpan="2"/>
+        <TextBox Name="txtProductCode" Grid.Row="1" Margin="60,0,0,10" Background="#FF0E0911" Foreground="#FFFBFBFB" Grid.Column="1"/>
+
+        <!-- Nhập Cân Nặng Mới -->
+        <TextBlock Text="Cân Nặng Mới (Kg):" Grid.Row="2" VerticalAlignment="Center" Foreground="#FF0261F9" Grid.ColumnSpan="2"/>
+        <TextBox Name="txtWeight" Grid.Row="2" Margin="60,0,0,10" Background="#FF0E0911" Foreground="#FFFBFBFB" Grid.Column="1"/>
+
+        <!-- Nút Cập Nhật -->
+        <Button Content="Cập Nhật" Grid.Row="3" VerticalAlignment="Center" Click="UpdateOrderButton_Click" Grid.ColumnSpan="2" Background="#FF4E82E6" Foreground="White"/>
+    </Grid>
+</Window>

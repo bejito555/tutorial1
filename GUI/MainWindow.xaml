@@ -1,0 +1,37 @@
+﻿<Window x:Class="CustomerManagementApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Quản Lý Khách Hàng" Height="600" Width="1000">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/pngtree-night-sky-romantic-sky-picture-image_2235299.jpg"/>
+        </Grid.Background>
+        <!-- Bảng điều khiển bên trái -->
+        <Grid Background="#FF152D73" Width="200" VerticalAlignment="Stretch" HorizontalAlignment="Left">
+            <StackPanel Margin="10,20,10,10">
+                <!-- Đăng Ký Section -->
+                <TextBlock Text="Đăng Ký" FontSize="18" Margin="0,0,0,15" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#FFEDF4F4"/>
+                <Button Content="Tạo Tài Khoản Mới" Margin="0,10" Padding="10" HorizontalAlignment="Stretch"
+                        Click="OpenRegistrationForm_Click" Background="#FFC1E2DB"/>
+                <Button Content="Tạo Đơn Hàng Mới" Padding="10"
+                        Click="OpenAddOrderWindow_Click" Background="#FFC1E2DB"/>
+
+                <!-- Quản Lý Khách Hàng Section -->
+                <TextBlock Text="Quản Lý Khách Hàng" FontSize="18" Margin="0,30,0,15" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#FFF3EDED"/>
+                <Button Content="Danh Sách Khách Hàng" Margin="0,10" Padding="10" HorizontalAlignment="Stretch"
+                        Click="OpenCustomerListForm_Click" Background="#FFC1E2DB"/>
+                <Button Content="Chỉnh Sửa Khách Hàng" Margin="0,10" Padding="10" HorizontalAlignment="Stretch"
+                        Click="OpenManageCustomerWindow_Click" Background="#FFC1E2DB"/>
+
+                <!-- Quản Lý Đơn Hàng Section -->
+                <TextBlock Text="Quản Lý Đơn Hàng" FontSize="18" Margin="0,30,0,15" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#FFF3E1E1"/>
+                <Button Content="Xem Đơn Hàng" Margin="0,10" Padding="10" HorizontalAlignment="Stretch"
+                        Click="OpenViewOrdersWindow_Click" Background="#FFC1E2DB"/>
+                <Button Content="Chỉnh Sửa Đơn Hàng" Margin="0,10" Padding="10" HorizontalAlignment="Stretch"
+                        Click="OpenManageOrderWindow_Click" Background="#FFC1E2DB"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Nội dung chính -->
+    </Grid>
+</Window>

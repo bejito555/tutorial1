@@ -1,0 +1,49 @@
+﻿<Window x:Class="CustomerManagementApp.ViewOrdersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Xem Đơn Hàng" Height="600" Width="805">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Dòng cho các điều khiển nhập và nút -->
+            <RowDefinition Height="*"/>
+            <!-- Dòng cho danh sách đơn hàng -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="177*"/>
+            <!-- Cột cho chế độ xem -->
+            <ColumnDefinition Width="423*"/>
+            <!-- Cột cho thông tin nhập -->
+            <ColumnDefinition Width="Auto"/>
+            <!-- Cột cho nút Xem Đơn Hàng và Xuất File -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Cột chế độ xem -->
+        <StackPanel Grid.Column="0" Orientation="Vertical" Margin="0,0,10,0" VerticalAlignment="Top" Grid.ColumnSpan="2">
+            <TextBlock Text="Chọn Chế Độ Xem:" FontSize="16" Margin="0,0,0,10" Background="#FFC1E2DB" Padding="5"/>
+            <ComboBox x:Name="cbViewMode" Width="200" Height="30" SelectionChanged="cbViewMode_SelectionChanged">
+                <ComboBoxItem Content="Xem Tất Cả Đơn Hàng"/>
+                <ComboBoxItem Content="Xem Theo Ngày"/>
+                <ComboBoxItem Content="Xem Theo ID Khách Hàng"/>
+            </ComboBox>
+        </StackPanel>
+
+        <!-- Cột thông tin nhập -->
+        <StackPanel Grid.Column="2" Orientation="Vertical" Margin="10,0,10,0" VerticalAlignment="Top">
+            <TextBlock x:Name="lblInput" Text="Nhập Thông Tin:" FontSize="16" Margin="0,0,0,10" TextAlignment="Center" Background="#FFC1E2DB" Padding="5"/>
+            <TextBox x:Name="txtInput" Width="200" Height="30" Padding="5"/>
+        </StackPanel>
+
+        <!-- Cột nút Xem Đơn Hàng và Xuất File -->
+        <StackPanel Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0">
+            <Button Content="Xem Đơn Hàng" Width="140" Height="40" Background="#FF3FA0C7" Foreground="White" Margin="0,0,0,10" Click="ViewOrdersButton_Click"/>
+            <Button Content="Xuất File .txt" Width="140" Height="40" Background="#FF3FA0C7" Foreground="White" Click="ExportToTextFile_Click"/>
+        </StackPanel>
+
+        <!-- Phần hiển thị đơn hàng -->
+        <ScrollViewer Grid.Row="1" Grid.ColumnSpan="4" Margin="0,10,10,0">
+            <ListBox x:Name="OrdersListBox" Background="#FFBCDCDA"/>
+        </ScrollViewer>
+    </Grid>
+</Window>
