@@ -1,0 +1,5 @@
+ID: 80003
+Name: tam dep trai va phong dep gai
+Phone: 010101
+Birth Year: 4006
+Gender: Nam
