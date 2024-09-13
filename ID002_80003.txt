@@ -1,5 +1,0 @@
-Order ID: ID002_80003
-Customer ID: 80003
-Product Code: congthangphu
-Weight: 1000
-Date: 9/12/2024 4:49:14 PM
