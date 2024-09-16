@@ -1,0 +1,5 @@
+Order ID: 1000_80006
+Customer ID: 80006
+Product Code: caosuvviprpo1
+Weight: 1
+Date: 9/16/2024 1:44:20 PM
