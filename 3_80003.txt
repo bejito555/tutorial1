@@ -1,0 +1,5 @@
+Order ID: 3_80003
+Customer ID: 80003
+Product Code: nhua
+Weight: 1
+Date: 9/16/2024 12:58:57 PM
