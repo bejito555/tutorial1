@@ -1,0 +1,5 @@
+Order ID: 1000_80007
+Customer ID: 80007
+Product Code: caosu
+Weight: 13
+Date: 9/16/2024 5:08:45 PM
