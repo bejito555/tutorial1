@@ -1,0 +1,5 @@
+Order ID: 1000_80003
+Customer ID: 80003
+Product Code: caosunumber1
+Weight: 12
+Date: 9/16/2024 1:52:30 PM
