@@ -1,0 +1,5 @@
+Order ID: 6_80003
+Customer ID: 80003
+Product Code: caosuvip
+Weight: 14
+Date: 9/16/2024 1:33:14 PM
