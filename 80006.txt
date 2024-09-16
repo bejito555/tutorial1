@@ -1,0 +1,5 @@
+ID: 80006
+Name: Baobitrap
+Phone: 12345
+Birth Year: 2003
+Gender: Nam
