@@ -1,0 +1,5 @@
+Order ID: ID003_80001
+Customer ID: 80001
+Product Code: caosux20
+Weight: 10
+Date: 9/16/2024 12:27:38 PM
