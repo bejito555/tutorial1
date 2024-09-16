@@ -1,0 +1,5 @@
+Order ID: 1001_80003
+Customer ID: 80003
+Product Code: cáouvip6
+Weight: 12
+Date: 9/16/2024 2:01:46 PM
