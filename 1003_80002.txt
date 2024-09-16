@@ -1,0 +1,5 @@
+Order ID: 1003_80002
+Customer ID: 80002
+Product Code: nhua
+Weight: 15
+Date: 9/16/2024 12:59:13 PM
