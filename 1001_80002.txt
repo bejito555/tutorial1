@@ -1,0 +1,5 @@
+Order ID: 1001_80002
+Customer ID: 80002
+Product Code: nhuacaosux4
+Weight: 13
+Date: 9/16/2024 12:40:06 PM
