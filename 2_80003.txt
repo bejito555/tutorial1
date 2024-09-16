@@ -1,5 +1,0 @@
-Order ID: 2_80003
-Customer ID: 80003
-Product Code: caosu
-Weight: 12
-Date: 9/16/2024 12:42:43 PM
