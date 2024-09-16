@@ -1,0 +1,5 @@
+Order ID: 1000_80002
+Customer ID: 80002
+Product Code: caosux3
+Weight: 12
+Date: 9/16/2024 12:29:14 PM
