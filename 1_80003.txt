@@ -1,5 +1,0 @@
-Order ID: 1_80003
-Customer ID: 80003
-Product Code: caosux5
-Weight: 125
-Date: 9/16/2024 12:41:32 PM
