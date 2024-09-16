@@ -1,0 +1,5 @@
+Order ID: 1001_80005
+Customer ID: 80005
+Product Code: caosuvip2
+Weight: 2
+Date: 9/16/2024 1:34:18 PM
